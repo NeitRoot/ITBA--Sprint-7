@@ -1,15 +1,17 @@
 h1{
-  margin-top: 3rem;
+  margin-top: 8rem;
   margin-bottom: 2rem;
+  margin-left: 1rem;
   text-align: center;
 }
 h2{
   margin: 5rem;
-  align-items: center;
+  text-align: center;
 }
-span{
+span, h3, a, p{
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 1rem;
   text-align: center;
 }
 
@@ -17,7 +19,7 @@ body{
   background-color: rgb(241 245 249);
 }
 
-.mainBar{
+/* .mainBar{
   background-color:  rgb(30 58 138);
   color: rgb(241 245 249);
-}
+} */
