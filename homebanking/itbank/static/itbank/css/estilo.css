@@ -1,12 +1,20 @@
 h1{
-  margin-top: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
-
+h2{
+  margin: 5rem;
+}
 span{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 body{
-  background-color: orange;
+  background-color: rgb(241 245 249);
+}
+
+.mainBar{
+  background-color:  rgb(30 58 138);
+  color: rgb(241 245 249);
 }
