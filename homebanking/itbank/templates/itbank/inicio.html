@@ -1,0 +1,18 @@
+<!-- Toma el html de base -->
+{% extends 'itbank/base.html' %}
+
+<!-- Carga el contenido de static -->
+{% load static %}
+
+<!-- Imagen de fondo -->
+{% block fondo %}{% static 'itbank/img/fondo.png' %}{% endblock %}
+{% block banner %}{% static 'itbank/img/bannerUnificado.jpg' %}{% endblock %}
+
+<!-- Titulo de inicio-->
+{% block title %} Inicio {% endblock %}
+
+<!-- Header -->
+{% block headers %}
+    <h1>Bienvenido a ITBANK</h1>
+    <span class="subheading">El futuro de tu economía</span>
+{% endblock %}
