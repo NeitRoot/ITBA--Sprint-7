@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(241 245 249);
+  }
+
+  nav, footer, .offcanvas-body, a, .offcanvas-header{
+    background-color: rgb(75, 75, 218);
+    color: rgb(241 245 249);
+  }
+
+  #logo, .offcanvas-title{
+    width: 5rem;
+  }
+
+  a{
+    text-align: center;
+    margin-top: 10rem;
+  }
