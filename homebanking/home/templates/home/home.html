@@ -27,14 +27,14 @@
             </div>
             <div class="offcanvas-body">
               <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Cuenta</a></li>
+                <li><a href="{% url 'cuenta' %}">Cuenta</a></li>
+                <li><a href="{% url 'tarjeta' %}">Tarjetas</a></li>
                 <li><a href="">Pagos</a></li>
                 <li><a href="">Transferencias</a></li>
                 <li><a href="">Prestamos</a></li>
                 <li><a href="">Conversor de Moneda</a></li>
               </ul>
-              <a href="">Salir</a>
+              <a href="{% url 'logout' %}">Cerrar Sesión</a>
             </div>
           </div>
         </nav>

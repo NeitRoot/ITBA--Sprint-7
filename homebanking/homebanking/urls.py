@@ -20,11 +20,16 @@ from django.urls import path, include
 from itbank import views as itbank_views
 from home import views as home_views
 from cuenta import views as cuenta_views
+from cliente import views as cliente_views
+from tarjeta import views as tarjeta_views
 
 
 urlpatterns = [
     path('', itbank_views.inicio,  name="inicio"),
     path('home', home_views.home,  name="home"),
     path('cuenta', cuenta_views.cuenta,  name="cuenta"),
+    path('tarjeta', tarjeta_views.tarjeta,  name="tarjeta"),
+    path('cliente', cliente_views.cliente,  name="cliente"),
+    path('accounts/', include('django.contrib.auth.urls')),
     path('admin/', admin.site.urls),
 ]
