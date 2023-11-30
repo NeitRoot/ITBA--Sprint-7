@@ -37,7 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'itbank'
+    'itbank',
+    'home',
+    'cuenta',
+    'cliente',
+    'tarjeta',
+    'sucursal',
+    'prestamo',
+    'registration'
 ]
 
 MIDDLEWARE = [
@@ -77,7 +84,7 @@ WSGI_APPLICATION = 'homebanking.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'itbank.db',
     }
 }
 
@@ -116,7 +123,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
